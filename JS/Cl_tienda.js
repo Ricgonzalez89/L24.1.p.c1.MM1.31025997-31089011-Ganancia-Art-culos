@@ -5,7 +5,7 @@ export default class Cl_tienda{
         this.auxCodigo = "";
     }
 
-    procesarAticulo(a){
+    procesarArticulo(a){
         //Acumular ganancia total
         this.acumGanancia += a.calcGananciaArticulo();
 

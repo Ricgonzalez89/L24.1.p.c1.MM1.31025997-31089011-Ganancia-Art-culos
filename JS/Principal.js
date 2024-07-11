@@ -21,14 +21,14 @@ let art7 = new Cl_articulo("444", 80, 100);
 let art8 = new Cl_articulo("222", 5, 10);
 let tienda = new Cl_tienda();
 
-tienda.procesarAticulo(art1);
-tienda.procesarAticulo(art2);
-tienda.procesarAticulo(art3);
-tienda.procesarAticulo(art4);
-tienda.procesarAticulo(art5);
-tienda.procesarAticulo(art6);
-tienda.procesarAticulo(art7);
-tienda.procesarAticulo(art8);
+tienda.procesarArticulo(art1);
+tienda.procesarArticulo(art2);
+tienda.procesarArticulo(art3);
+tienda.procesarArticulo(art4);
+tienda.procesarArticulo(art5);
+tienda.procesarArticulo(art6);
+tienda.procesarArticulo(art7);
+tienda.procesarArticulo(art8);
 
 let salida = document.getElementById("salida");
 salida.innerHTML = `

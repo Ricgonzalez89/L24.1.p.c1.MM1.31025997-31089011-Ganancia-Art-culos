@@ -29,7 +29,7 @@ export default class Cl_articulo{
         return this._precio;
     }
 
-    calcGanaciaArticulo(){
+    calcGananciaArticulo(){
         return this.precio-this.costo;
     }
 }
